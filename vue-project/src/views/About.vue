@@ -5,7 +5,7 @@
   
     </main>-->
 
-  <main class="home-page">
-    <h1>HOME</h1>
+  <main class="about-page">
+    <h1>About</h1>
   </main>
 </template>
