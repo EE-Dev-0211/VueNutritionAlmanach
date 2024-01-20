@@ -35,9 +35,9 @@ const ToggleMenu = () => {
         <span class="text">About</span>
       </RouterLink>
 
-      <RouterLink class="button" to="/fesf">
+      <RouterLink class="button" to="/SuppComparison">
         <span class="material-icons">group</span>
-        <span class="text">Team</span>
+        <span class="text">Rechner</span>
       </RouterLink>
 
       <RouterLink class="button" to="/sdfs">

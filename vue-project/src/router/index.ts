@@ -5,7 +5,7 @@ import Parent2 from "@/components/Parent2.vue";
 import Parent3 from "@/components/Parent3.vue";
 import OptionVSComposition from "@/components/OptionVSComposition.vue";
 import ArrayPlayground from "@/components/ArrayPlayground.vue";
-
+import SuppComparison from "@/components/SuppComparison.vue";
 
 
 const router = createRouter({
@@ -50,6 +50,11 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       name: 'NotFound',
       component: () => import('../views/NotFound.vue')
+    },
+    {
+      path: '/SuppComparison',
+      name: 'SuppComparison',
+      component: SuppComparison
     }
   ]
 })
